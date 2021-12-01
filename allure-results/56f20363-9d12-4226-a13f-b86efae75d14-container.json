@@ -1,0 +1,1 @@
+{"uuid":"56f20363-9d12-4226-a13f-b86efae75d14","name":"taskA.DemoQATest","children":["5b987818-636d-4300-b54e-ae7da000eabb"],"befores":[{"name":"setupClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638123327840,"stop":1638123330031}],"afters":[],"links":[],"start":1638123327818,"stop":1638123332220}

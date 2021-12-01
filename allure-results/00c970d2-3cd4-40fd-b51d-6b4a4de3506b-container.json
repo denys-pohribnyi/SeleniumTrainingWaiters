@@ -1,0 +1,1 @@
+{"uuid":"00c970d2-3cd4-40fd-b51d-6b4a4de3506b","name":"TaskD","children":["06f6c42d-e85f-4334-a4e2-d12cba14739e"],"befores":[{"name":"setupClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638385759577,"stop":1638385761688}],"afters":[],"links":[],"start":1638385759554,"stop":1638385767022}

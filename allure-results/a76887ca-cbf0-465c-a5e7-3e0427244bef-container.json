@@ -1,0 +1,1 @@
+{"uuid":"a76887ca-cbf0-465c-a5e7-3e0427244bef","name":"taskA.BaseTest.quit","children":["5b987818-636d-4300-b54e-ae7da000eabb"],"description":"","befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638123332084,"stop":1638123332215}],"links":[],"start":1638123332084,"stop":1638123332215}

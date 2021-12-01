@@ -1,0 +1,1 @@
+{"uuid":"17a1cad3-d4b9-48fb-96d4-fc7a9cd81748","name":"TaskA","children":["4d7d55c9-bfb6-4db5-a80f-b68954896f5c"],"befores":[{"name":"setupClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638135898811,"stop":1638135900371}],"afters":[],"links":[],"start":1638135898791,"stop":1638135911706}
