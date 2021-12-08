@@ -39,8 +39,3 @@ public class AmazonDealsPage {
     }
 
 }
-// In case if there are one more step with item spec
-//    public AmazonDealsPage chooseItem2() {
-//        driver.findElement(firstItemSpec2).click();
-//        return this;
-//    }
