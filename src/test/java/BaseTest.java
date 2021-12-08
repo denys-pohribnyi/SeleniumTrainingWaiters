@@ -29,13 +29,13 @@ public class BaseTest {
         return WEBDRIVER_CONTAINER.get();
     }
 
-    @AfterClass
-    public void quit() {
-
-        if (driver != null) {
-            driver.manage().deleteAllCookies();
-            driver.quit();
-            WEBDRIVER_CONTAINER.remove();
-        }
-    }
+//    @AfterClass
+//    public void quit() {
+//
+//        if (driver != null) {
+//            driver.manage().deleteAllCookies();
+//            driver.quit();
+//            WEBDRIVER_CONTAINER.remove();
+//        }
+//    }
 }

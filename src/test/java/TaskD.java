@@ -20,7 +20,6 @@ public class TaskD extends BaseTest {
         amazonDealsPage
                 .addItem()
                 .chooseItem1()
-                .chooseItem2()
                 .addingToCart()
                 .proceedCheckout();
     }
