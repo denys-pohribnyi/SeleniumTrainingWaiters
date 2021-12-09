@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-   public static WebDriver driver;
+    public static WebDriver driver;
     private static final ThreadLocal<WebDriver> WEBDRIVER_CONTAINER = new ThreadLocal<WebDriver>();
 
     public void openURL(String url) {
@@ -29,13 +29,13 @@ public class BaseTest {
         return WEBDRIVER_CONTAINER.get();
     }
 
-//    @AfterClass
-//    public void quit() {
-//
-//        if (driver != null) {
-//            driver.manage().deleteAllCookies();
-//            driver.quit();
-//            WEBDRIVER_CONTAINER.remove();
-//        }
-//    }
+    @AfterClass
+    public void quit() {
+
+        if (driver != null) {
+            driver.manage().deleteAllCookies();
+            driver.quit();
+            WEBDRIVER_CONTAINER.remove();
+        }
+    }
 }
