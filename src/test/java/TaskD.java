@@ -21,6 +21,7 @@ public class TaskD extends BaseTest {
                 .addItem()
                 .chooseItem1()
                 .addingToCart()
+                .openCartPage()
                 .proceedCheckout();
     }
 }
@@ -30,3 +31,5 @@ public class TaskD extends BaseTest {
 //3. Choose First Product
 //4. Click Add To Cart
 //5. Click Proceed To Checkout
+
+// explicitWaits
